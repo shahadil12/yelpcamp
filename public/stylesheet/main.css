@@ -1,0 +1,16 @@
+.thamnail img {
+    width: 100%;
+}
+
+
+.thamnail {
+    padding: 0;
+}
+
+.thamnail .caption-full {
+    padding: 9px;
+} 
+
+.commentedit {
+    display:inline;
+}
