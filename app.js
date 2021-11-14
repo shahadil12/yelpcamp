@@ -20,7 +20,7 @@ const indexRoutes      = require("./routes/index"),
       commentRoutes    = require("./routes/comments");
 
 //mongoose.connect("mongodb://localhost:27017/yelp_camp" ,{useNewUrlParser: true , useUnifiedTopology : true});
-mongoose.connect("mongodb+srv://shahadil:1a234567%40@cluster0.mlas3.mongodb.net/yelpcampd?retryWrites=true&w=majority",{useNewUrlParser: true , useUnifiedTopology : true}); 
+mongoose.connect("mongodb+srv://shahadil:1a234567%40@cluster0.mlas3.mongodb.net/yelpcamp?retryWrites=true&w=majority"); 
 app.use(bodyParser.urlencoded({extended : true}));
 app.set("view engine","ejs") ;
 app.use(methodOverride("_method"));
